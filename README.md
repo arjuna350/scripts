@@ -1,10 +1,14 @@
 This project have shell script to start and stop a java application .
 
 <b>Startup.sh</b> 
-it will pass all input parameters to shell script to java process.
-validata java version .
-check if application is not running the launch it.
+1. Validata java version .
+2. Check if application is not running then launch it.Pass all input parameters to shell script to java process.
+Else 
+it will print message that application is already running
+
+
 
 <b>shutdown.sh</b>
 
-it will cehck if application is running then shut it down.
+it will check if application is running . If yes then it will shut it down.
+Else it will print message that application is not running
